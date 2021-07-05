@@ -1,0 +1,103 @@
+/*Desktop 1440*/
+/*Mobile 375*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+:root {
+  --color-red: hsl(0, 78%, 62%);
+  --color-cyan: hsl(180, 62%, 55%);
+  --color-orange: hsl(34, 97%, 64%);
+  --color-blue: hsl(212, 86%, 64%);
+
+  --color-very-dark-blue: hsl(234, 12%, 34%);
+  --color-grayish-blue: hsl(229, 6%, 66%);
+  --color-very-light-gray: hsl(0, 0%, 98%);
+  font-family: 15px;
+}
+
+body {
+  height: 100vh;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-very-light-gray);
+}
+
+.title {
+  font-weight: 200;
+  font-size: 2.4em;
+  color: var(--color-very-dark-blue);
+  margin-bottom: 0.3em;
+}
+.power-by {
+  font-weight: bold;
+  font-size: 2.4em;
+  color: var(--color-very-dark-blue);
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-grayish-blue);
+  margin-top: 1.5em;
+  line-height: 1.7em;
+}
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 54px;
+  height: 100vh;
+}
+
+.card {
+  box-sizing: border-box;
+  height: 265px;
+  width: 350px;
+  background-color: white;
+  border-radius: 6px;
+  text-align: left;
+  padding: 33px;
+  display: flex;
+  flex-direction: column;
+  margin: 2em 1em;
+  box-shadow: 16px 16px 39px -24px rgba(117, 117, 117, 1);
+}
+
+.card-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0;
+  color: var(--color-very-dark-blue);
+}
+.card-description {
+  color: var(--color-grayish-blue);
+  font-size: 0.9em;
+  line-height: 1.7em;
+}
+.card-icon {
+  height: 64px;
+  width: 64px;
+  align-self: flex-end;
+  margin-top: auto;
+}
+/*border top colors*/
+.red {
+  border-top: 4px solid var(--color-red);
+}
+
+.cyan {
+  border-top: 4px solid var(--color-cyan);
+}
+
+.orange {
+  border-top: 4px solid var(--color-orange);
+}
+.blue {
+  border-top: 4px solid var(--color-blue);
+}
+
+.card--wrapper {
+  display: flex;
+  justify-content: center;
+  height: 635px;
+}
+.col {
+  align-self: center;
+}

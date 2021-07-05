@@ -15,12 +15,59 @@
     <title>Frontend Mentor | Four card feature section</title>
   </head>
   <body>
-    Reliable, efficient delivery Powered by Technology Our Artificial
-    Intelligence powered tools use millions of project data points to ensure
-    that your project is successful Supervisor Monitors activity to identify
-    project roadblocks Team Builder Scans our talent network to create the
-    optimal team for your project Karma Regularly evaluates our talent to ensure
-    quality Calculator Uses data from past projects to provide better delivery
-    estimates
+    <div class="container">
+      <h1 class="title">Reliable, efficient delivery</h1>
+      <span class="power-by">Powered by Technology </span>
+      <p class="description">
+        Our Artificial Intelligence powered tools use millions of project
+        data<br />
+        points to ensure that your project is successful
+      </p>
+      <!-- create four Card -->
+
+      <div class="card--wrapper">
+        <div class="col">
+          <div class="card cyan">
+            <p class="card-title">Supervisor</p>
+            <p class="card-description">
+              Monitors activity to identify project <br />roadblocks
+            </p>
+            <img
+              class="card-icon"
+              alt="magnifying glass icon"
+              src="./images/icon-supervisor.svg"
+            />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card red">
+            <p class="card-title">Team Builder</p>
+            <p class="card-description">
+              Scans our talent network to create the<br />
+              optimal team for your project
+            </p>
+            <img class="card-icon" src="./images/icon-team-builder.svg" />
+          </div>
+
+          <div class="card orange">
+            <p class="card-title">Karma</p>
+            <p class="card-description">
+              Regularly evaluates our talent to ensure<br />
+              quality
+            </p>
+            <img class="card-icon" src="./images/icon-karma.svg" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card blue">
+            <p class="card-title">Calculator</p>
+            <p class="card-description">
+              Uses data from past projects to provide better delivery estimates
+            </p>
+            <img class="card-icon" src="./images/icon-calculator.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
