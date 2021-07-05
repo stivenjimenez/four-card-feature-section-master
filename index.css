@@ -101,7 +101,6 @@ body {
 }
 
 @media screen and (max-width: 1150px) {
-  /*pasar de dos columnas a dos*/
   .card--wrapper {
     flex-direction: column;
   }
