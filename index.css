@@ -1,5 +1,3 @@
-/*Desktop 1440*/
-/*Mobile 375*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 :root {
   --color-red: hsl(0, 78%, 62%);
@@ -39,25 +37,25 @@ body {
   line-height: 1.7em;
 }
 .container {
-  width: 1280px;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 54px;
   height: 100vh;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding-top: 54px;
+  text-align: center;
 }
 
 .card {
-  box-sizing: border-box;
   height: 265px;
   width: 350px;
+  margin: 2em 1em;
+  padding: 33px;
+  text-align: left;
   background-color: white;
   border-radius: 6px;
-  text-align: left;
-  padding: 33px;
   display: flex;
   flex-direction: column;
-  margin: 2em 1em;
   box-shadow: 16px 16px 39px -24px rgba(117, 117, 117, 1);
+  box-sizing: border-box;
 }
 
 .card-title {
@@ -96,8 +94,36 @@ body {
 .card--wrapper {
   display: flex;
   justify-content: center;
-  height: 635px;
+  min-height: 635px;
 }
 .col {
   align-self: center;
+}
+
+@media screen and (max-width: 1150px) {
+  /*pasar de dos columnas a dos*/
+  .card--wrapper {
+    flex-direction: column;
+  }
+}
+
+/*Mobile 375*/
+
+@media screen and (max-width: 540px) {
+  .title {
+    font-size: 1.8em;
+  }
+
+  .power-by {
+    font-size: 1.8em;
+  }
+
+  .description {
+    font-size: 1.1em;
+    padding: 0 1em;
+  }
+
+  .br {
+    display: none;
+  }
 }
