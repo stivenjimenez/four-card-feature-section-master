@@ -1,6 +1,6 @@
 
 
-# four card feature section master   ![Status badge](https://img.shields.io/badge/status-in%20progress-yellow)
+# four card feature section master   ![Status badge](https://img.shields.io/badge/status-Finished-green)
 
 ⚡️  Es un proyecto que realice para reforzar mis conocimientos en  HTML, CSS y media queries
 
@@ -9,7 +9,7 @@
 ### Construido con 
 
 - HTML5 semántico
-- CSS y BEM
+- CSS - BEM
 - Flexbox
 
 
