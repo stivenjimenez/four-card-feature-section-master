@@ -17,7 +17,7 @@
 
 [DEMO](https://four-card-feature-section-master-sigma-six.vercel.app/)
 
-![Diseño sin título](https://user-images.githubusercontent.com/58489695/124516701-e2d7c300-dda7-11eb-9faa-f88bd4ca231f.png)
+![Diseño sin título](https://user-images.githubusercontent.com/58489695/174514901-b7bf90c3-9894-479a-a7d1-50abba62edbf.png)
 
 ## 🧾 License
 
